@@ -1,7 +1,7 @@
 import { createStore, combineReducers } from "redux";
 import { cashReducer } from "./cashReduser";
 import { customerReducer } from "./customerReduser";
-import { composeWithDevTools } from "redux-devtools-extension";
+import { composeWithDevTools } from "redux-devtools-extension"; // приложение для Chrom браузера
 
 const rootReduser = combineReducers({
     cash: cashReducer,
